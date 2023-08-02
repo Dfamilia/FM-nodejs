@@ -1,0 +1,13 @@
+{
+    "compilerOptions":{
+        "sourceMap": true,
+        "outDir": "dist",
+        "lib": ["esnext"],
+        "esModuleInterop": true
+    }
+}
+/* 
+    This issues means Typescript saying, we don't know what files you want us to compile
+    and we don't know what files you want us to ignore. We can ignore it, because Typescript
+    is actually smart enough to know.
+*/
