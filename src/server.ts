@@ -1,5 +1,7 @@
-const express = require("express");
-const path = require("path");
+// const express = require("express"); == js
+// const path = require("path"); == js
+import express from "express";
+import path from "path";
 
 const app = express();
 // app.use(express.static("static"));
@@ -15,4 +17,5 @@ res.status(200)
 res.json({greetings: "Hello Mundo!!!"});
 });
 
-module.exports = app;
+// module.exports = app; == js
+export default app;
